@@ -1,7 +1,525 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:100,200,300,400,500,600,700|Exo:100,200,300,400,500,600,700');
+
+body {
+    background-color: white;
+}
+
 .home-image {
-    background: url("../images/aquasafari-home.jpg");
+    background-image: url("../images/ghana-beach-sml.jpg");
+    height: 100%;
+    width: 100%;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    min-height: 360px;
+    min-height: 700px;
+    min-width: 100vw;  
 }
+
+.bg-image-img2 { 
+    background-image: url("../images/festival1.jpg");
+    min-height: 900px;
+    min-width: 100vw;
+    }
+
+.bg-image-img3 { 
+    background-image: url("../images/e1.jpg");
+    min-height: 900px;
+    min-width: 100%;
+    }
+
+.logo {
+    position: absolute;
+    font-family: "Roboto", sans-serif;
+    font-weight: 100;
+    font-size: 30px;
+    width: 50%;
+    text-align: center;
+    margin-top: 30px;
+    margin-left: 330px;
+    color: #fff;
+    border: 3px solid;
+    padding: 12px 10px;
+    
+}
+
+
+/* Make the image responsive 
+.container img {
+  width: 100%;
+  height: auto;
+}
+
+.container {
+  position: relative;
+  width: 50%;
+}*/
+
+.btn1 {
+  position: absolute;
+  top: 50%;
+  left: 25%;
+  background-color: rgba(0,0,0, 0.3);
+  color: rgba(255, 255, 255);
+  font-size: 16px;
+  padding: 12px 24px;
+  border: 3px solid white;
+  cursor: pointer;
+}
+
+.btn2 {
+  position: absolute;
+  top: 50%;
+  right: 26%;
+  background-color: rgba(0,0,0, 0.3);
+  color: rgba(255, 255, 255);
+  font-size: 16px;
+  padding: 12px 24px;
+  border: 3px solid white;
+  cursor: pointer;
+}
+
+.btn3 {
+  position: absolute;
+  bottom: 50%;
+  left: 45%;
+  background-color: rgba(0,0,0, 0.3);
+  color: rgb(255, 255, 255);
+  font-size: 23px;
+  padding: 12px 24px;
+  border: 3px solid white;
+  cursor: pointer;
+}
+
+.btn4 {
+  position: absolute;
+  bottom: 50%;
+  left: 45%;
+  background-color: rgba(0,0,0, 0.3);
+  color: rgb(255, 255, 255);
+  font-size: 23px;
+  padding: 12px 24px;
+  border: 3px solid white;
+  cursor: pointer;
+}
+
+.btn5 {
+  position: absolute;
+  bottom: 50%;
+  left: 35%;
+  background-color: white;
+  color: #8A6C00;
+  font-size: 15px;
+  padding: 12px 24px;
+  border: 3px solid white;
+  cursor: pointer;
+}
+
+.btn1:hover {
+  background: #255222;
+}
+
+.btn2:hover {
+  background: #255222;
+}
+
+.btn3:hover {
+  background: #255222;
+}
+
+.btn4:hover {
+  background: #255222;
+}
+
+.btn5:hover {
+  background: #ac460c;
+}
+
+
+.arrow-down {
+  border: solid white;
+  font-size: 5px;
+  margin-left: 50%;
+  border-width: 0 3px 3px 0;
+  display: inline-block;
+  padding: 3px;
+  transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+}
+
+
+
+/*#fullname {
+    border: 3px solid #8A6C00;
+}
+
+#emailaddress {
+    border: 3px solid #8A6C00;
+}
+
+#bookingdetails {
+    border: 3px solid #8A6C00;
+}*/
+.experience-logo {
+    position: absolute;
+    font-family: "Roboto", sans-serif;
+    font-weight: 100;
+    font-size: 30px;
+    width: 50%;
+    text-align: center;
+    margin-top: 30px;
+    margin-left: 125%;
+    border: 3px solid;
+    padding: 12px 10px;
+    background: #8A6C00;
+    color: white;
+}
+
+.experience-title {
+    text-align: center;
+    margin-top: 160px;
+    margin-left: 630px;
+    font-size: 27px;
+    white-space: nowrap;
+    color: #8A6C00;
+}
+
+.bg-image-img4 {
+    background-image: url("../images/festival1.jpg");
+    margin-top: 40px;
+    min-height: 500px;
+    min-width: 100px;
+}
+
+/*.bg-image-img4:hover {
+transform: scale(1.5)
+}*/
+
+.bg-image-img5 {
+    background-image: url("../images/ghana-beach2-sml.jpg");
+    margin-top: -500px;
+    margin-left: 500px;
+    min-height: 500px;
+    min-width: 100px;
+}
+
+.btn6 {
+  position: absolute;
+  bottom: 50%;
+  left: 39%;
+  background-color: white;
+  color: #8A6C00;
+  font-size: 15px;
+  padding: 12px 24px;
+  border: 3px solid white;
+  cursor: pointer;
+}
+
+.btn6:hover {
+  background: #ac460c;
+}
+
+.bg-image-img6 {
+    background-image: url("../images/aburi-sml.jpg");
+    margin-top: -500px;
+    margin-left: 1000px;
+    min-height: 500px;
+    min-width: 100px;
+}
+
+.btn7 {
+  position: absolute;
+  bottom: 50%;
+  left: 40%;
+  background-color: white;
+  color: #8A6C00;
+  font-size: 15px;
+  padding: 12px 24px;
+  border: 3px solid white;
+  cursor: pointer;
+}
+
+ .btn7:hover {
+  background: #ac460c;
+}
+
+.festival-logo {
+    position: absolute;
+    font-family: "Roboto", sans-serif;
+    font-weight: 100;
+    font-size: 30px;
+    width: 50%;
+    text-align: center;
+    margin-top: 30px;
+    margin-left: 127%;
+    border: 3px solid;
+    padding: 12px 10px;
+    background: #8A6C00;
+    color: white;
+}
+
+.festival-title {
+    text-align: center;
+    margin-top: 160px;
+    margin-left: 200px;
+    font-size: 27px;
+    white-space: nowrap;
+    color: #8A6C00;
+}
+
+.headline {
+    width: 610px;
+    text-align: left;
+    color: #8A6C00;
+    margin-top: -1770px;
+    margin-left: 53%;
+    margin-bottom: -4%;
+}
+
+h5 {
+    text-align: left;
+    color: #8A6C00;
+    margin-left: 53%;
+}
+
+.about {
+    width: 570px;
+    text-align: left;
+    color: #8A6C00;
+    margin-left: 53%;
+    margin-top: 6%;
+}
+
+.itinerary-header {
+    width: 570px;
+    text-align: left;
+    color: #8A6C00;
+    margin-left: 53%;
+    margin-top: 6%;
+    margin-bottom: -5%;
+    font-size: 20px;
+}
+
+.itinerary {
+    width: 570px;
+    text-align: left;
+    color: #8A6C00;
+    margin-left: 53%;
+    margin-top: 6%;
+    margin-bottom: -3%;
+}
+
+.bg-image-img7 {
+    background-image: url("../images/festival1-sml.jpg");
+    margin-top: 70px;
+    margin-left: 5%;
+    min-height: 500px;
+    min-width: 680px;
+}
+
+.bg-image-img8 {
+    background-image: url("../images/festival2-sml.jpg");
+    margin-left: 5%;
+    min-height: 723px;
+    min-width: 680px;
+}
+
+.bg-image-img9 {
+    background-image: url("../images/festival3.jpg");
+    margin-left: 5%;
+    margin-bottom: 5%;
+    min-height: 500px;
+    min-width: 680px;
+}
+
+.bg-color-contact {
+    margin-top: 20px;
+}
+
+.elmina-logo {
+    position: absolute;
+    font-family: "Roboto", sans-serif;
+    font-weight: 100;
+    font-size: 30px;
+    width: 50%;
+    text-align: center;
+    margin-top: 30px;
+    margin-left: 127%;
+    border: 3px solid;
+    padding: 12px 10px;
+    background: #8A6C00;
+    color: white;
+}
+
+.elmina-title {
+    text-align: center;
+    margin-top: 160px;
+    margin-left: 186px;
+    font-size: 27px;
+    white-space: nowrap;
+    color: #8A6C00;
+}
+
+.bg-image-img10 {
+    background-image: url("../images/kakum-sml.jpg");
+    margin-top: 70px;
+    margin-left: 5%;
+    min-height: 500px;
+    min-width: 680px;
+}
+
+.bg-image-img11 {
+    background-image: url("../images/e2.jpg");
+    margin-left: 5%;
+    min-height: 723px;
+    min-width: 680px;
+}
+
+.bg-image-img12 {
+    background-image: url("../images/ghana-beach2-sml.jpg");
+    margin-left: 5%;
+    margin-bottom: 5%;
+    min-height:500px;
+    min-width: 680px;
+}
+
+.aburi-logo {
+    position: absolute;
+    font-family: "Roboto", sans-serif;
+    font-weight: 100;
+    font-size: 30px;
+    width: 50%;
+    text-align: center;
+    margin-top: 30px;
+    margin-left: 127%;
+    border: 3px solid;
+    padding: 12px 10px;
+    background: #8A6C00;
+    color: white;
+}
+
+.aburi-title {
+    text-align: center;
+    margin-top: 160px;
+    margin-left: 186px;
+    font-size: 27px;
+    white-space: nowrap;
+    color: #8A6C00;
+}
+
+.bg-image-img13 {
+    background-image: url("../images/aburi-sml.jpg");
+    margin-top: 70px;
+    margin-left: 10%;
+    min-height: 723px;
+    min-width: 600px;
+}
+
+.bg-image-img14 {
+    background-image: url("../images/quadbike-sml.jpg");
+    margin-left: 10%;
+    margin-bottom: 5%;
+    min-height: 450px;
+    min-width: 600px;
+}
+
+.aburi-headline {
+    width: 610px;
+    text-align: left;
+    color: #8A6C00;
+    margin-top: -1770px;
+    margin-left: 53%;
+    margin-bottom: -4%;
+}
+
+
+/* Style inputs with type="text", select elements and textareas 
+.fname .lname .email {
+  width: 100%; /* Full width 
+  padding: 12px; /* Some padding 
+  border: 1px solid #8A6C00;
+  box-sizing: border-box; /* Make sure that padding and width stays in place 
+  margin-top: 6px; /* Add a top margin 
+  margin-bottom: 16px; /* Bottom margin
+  resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) 
+}
+
+ Style the submit button with a specific background color etc 
+input[type=submit] {
+  background-color: #4CAF50;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  cursor: pointer;
+}
+
+ When moving the mouse over the submit button, add a darker green color
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+ Add a background color and some padding around the form 
+.container {
+  background-color: #f2f2f2;
+  padding: 20px;
+}*/
+
+.contact-logo {
+    position: absolute;
+    font-family: "Roboto", sans-serif;
+    font-weight: 100;
+    font-size: 30px;
+    width: 50%;
+    text-align: center;
+    margin-top: 30px;
+    margin-left: 330px;
+    margin-bottom: 100px;
+    color: white;
+    background-color:#8A6C00; 
+    border: 3px solid #8A6C00;
+    padding: 12px 10px 10px;
+}
+
+.contact-title {
+    text-align: center;
+    margin-top: 160px;
+    margin-right: 100px;
+    margin-bottom: 60px;
+    font-size: 27px;
+    color: #8A6C00;
+    white-space: nowrap;
+}
+
+/*.bg-image-star {
+    background-image: url("../images/blackstar.jpg");
+    margin-left: 0;
+    margin-bottom: 5%;
+    min-height: 700px;
+    min-width: 30px;
+}*/
+
+.btn-book {
+    background: #8A6C00;
+    border: 3px solid #8A6C00;
+}
+
+.form-control {
+    border: 3px solid #8A6C00;
+    margin-bottom: 7px;
+    margin-left: 19%;
+    width: 60%;
+}
+
+#bookinginfo {
+    height: 300px;
+}
+
+.btn-book {
+    color: white;
+    font-size: 20px;
+}
+
+.btn-book:hover {
+    background: #ac460c;
+    color: white;
+}
+
