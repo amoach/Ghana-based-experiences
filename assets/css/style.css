@@ -1,7 +1,67 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:100,200,300,400,500,600,700|Exo:100,200,300,400,500,600,700');
 
 body {
-    background-color: white;
+    background-color: #fff;
+}
+
+.contact-bg {
+    background-image: url("../images/ghana-beach-sml.jpg")!important;
+}
+
+.home-bg {
+    background-image: url("../images/ghana-beach-sml.jpg")!important;
+}
+
+.fa-1x {
+font-size: 1.5rem;
+}
+
+.navbar-light .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml,%3csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3e%3cpath stroke='rgba(255, 255, 255, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+}
+
+.navbar-light2 .navbar-toggler-icon2 {
+    background-image: url("data:image/svg+xml,%3csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3e%3cpath stroke='rgba(138, 108, 24, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e")!important;
+}
+
+.bg-custom { 
+    background-image: url("../images/ghana-beach-sml.jpg")!important; 
+    color: white !important;
+    }
+
+.navbar-toggleable-md {
+cursor: pointer;
+}
+
+.navbar {
+color: white !important;
+background-color: rgba(0,0,0,0.2)!important;
+position: absolute;
+z-index: 100000;
+}
+
+span.navbar-toggler-icon {
+    color: white !important;
+}
+
+button.navbar-toggler {
+    color: white !important;
+}
+
+.bg-light {
+background: rgba(0, 0, 255, 0) !important; 
+}
+
+.navbar-light .navbar-toggler {
+    border-color: rgb(179 179 179 / 10%);
+}
+
+.dropdown-menu {
+    color: grey !important;
+}
+
+.dropdown-item {
+    color: grey !important;
 }
 
 .home-image {
@@ -41,18 +101,6 @@ body {
     padding: 12px 10px;
     
 }
-
-
-/* Make the image responsive 
-.container img {
-  width: 100%;
-  height: auto;
-}
-
-.container {
-  position: relative;
-  width: 50%;
-}*/
 
 .btn1 {
   position: absolute;
@@ -146,19 +194,6 @@ body {
   -webkit-transform: rotate(45deg);
 }
 
-
-
-/*#fullname {
-    border: 3px solid #8A6C00;
-}
-
-#emailaddress {
-    border: 3px solid #8A6C00;
-}
-
-#bookingdetails {
-    border: 3px solid #8A6C00;
-}*/
 .experience-logo {
     position: absolute;
     font-family: "Roboto", sans-serif;
@@ -187,7 +222,7 @@ body {
     background-image: url("../images/festival1.jpg");
     margin-top: 40px;
     min-height: 500px;
-    min-width: 100px;
+    min-width: 70px;
 }
 
 /*.bg-image-img4:hover {
@@ -223,7 +258,7 @@ transform: scale(1.5)
     margin-top: -500px;
     margin-left: 1000px;
     min-height: 500px;
-    min-width: 100px;
+    min-width: 70px;
 }
 
 .btn7 {
@@ -251,7 +286,7 @@ transform: scale(1.5)
     text-align: center;
     margin-top: 30px;
     margin-left: 127%;
-    border: 3px solid;
+    border: 3px solid #8A6C00;
     padding: 12px 10px;
     background: #8A6C00;
     color: white;
@@ -270,7 +305,7 @@ transform: scale(1.5)
     width: 610px;
     text-align: left;
     color: #8A6C00;
-    margin-top: -1770px;
+    margin-top: -1500px;
     margin-left: 53%;
     margin-bottom: -4%;
 }
@@ -308,6 +343,26 @@ h5 {
     margin-bottom: -3%;
 }
 
+.festival-map {
+    margin-top: 10%;
+    margin-left: 8%;
+    margin-bottom: -20%;
+    border: 3px solid #8A6C00;
+}
+
+.btn-fst {
+    color: white;
+    background-color: #8A6C00;
+    font-size: 15px;
+    margin-top: 40px;
+    margin-left: 250px;
+}
+
+.btn-fst:hover {
+    background: #ac460c;
+    color: white;
+}
+
 .bg-image-img7 {
     background-image: url("../images/festival1-sml.jpg");
     margin-top: 70px;
@@ -319,7 +374,7 @@ h5 {
 .bg-image-img8 {
     background-image: url("../images/festival2-sml.jpg");
     margin-left: 5%;
-    min-height: 723px;
+    min-height: 500px;
     min-width: 680px;
 }
 
@@ -348,6 +403,10 @@ h5 {
     padding: 12px 10px;
     background: #8A6C00;
     color: white;
+}
+
+.elmina-headline {
+    margin-top: -1750px;
 }
 
 .elmina-title {
@@ -382,6 +441,26 @@ h5 {
     min-width: 680px;
 }
 
+.btn-elm {
+    color: white;
+    background-color: #8A6C00;
+    font-size: 15px;
+    margin-top: -150px;
+    margin-left: 1250px;
+}
+
+.btn-elm:hover {
+    background: #ac460c;
+    color: white;
+}
+
+.elm-map {
+    margin-top: 53%;
+    margin-left: 15%;
+    margin-bottom: -20%;
+    border: 3px solid #8A6C00;
+}
+
 .aburi-logo {
     position: absolute;
     font-family: "Roboto", sans-serif;
@@ -412,6 +491,7 @@ h5 {
     margin-left: 10%;
     min-height: 723px;
     min-width: 600px;
+    overflow:scroll;
 }
 
 .bg-image-img14 {
@@ -420,17 +500,64 @@ h5 {
     margin-bottom: 5%;
     min-height: 450px;
     min-width: 600px;
+    overflow:scroll;
 }
 
 .aburi-headline {
     width: 610px;
     text-align: left;
     color: #8A6C00;
-    margin-top: -1770px;
+    margin-top: -1230px;
     margin-left: 53%;
     margin-bottom: -4%;
+    text-decoration: underline;
 }
 
+.aburi-about {
+    width: 570px;
+    text-align: left;
+    color: #8A6C00;
+    margin-left: 53%;
+    margin-top: 6%;
+}
+
+.aburi-itinerary-header {
+    width: 570px;
+    text-align: left;
+    color: #8A6C00;
+    margin-left: 53%;
+    margin-top: 6%;
+    margin-bottom: -5%;
+    font-size: 20px;
+}
+
+.abr-paym-header {
+    width: 570px;
+    text-align: left;
+    color: #8A6C00;
+    margin-left: 53%;
+    margin-top: 10%;
+    margin-bottom: -7%;
+    font-size: 20px;
+}
+
+.abr-paym {
+    width: 570px;
+    text-align: left;
+    color: #8A6C00;
+    margin-left: 53%;
+    margin-top: 6%;
+    margin-bottom: -3%;
+}
+
+.aburi-itinerary {
+    width: 570px;
+    text-align: left;
+    color: #8A6C00;
+    margin-left: 53%;
+    margin-top: 6%;
+    margin-bottom: -3%;
+}
 
 /* Style inputs with type="text", select elements and textareas 
 .fname .lname .email {
@@ -476,17 +603,21 @@ input[type=submit]:hover {
     color: white;
     background-color:#8A6C00; 
     border: 3px solid #8A6C00;
-    padding: 12px 10px 10px;
+    padding: 12px 10px;
 }
 
 .contact-title {
     text-align: center;
     margin-top: 160px;
-    margin-right: 100px;
+    margin-left: 140%;
     margin-bottom: 60px;
     font-size: 27px;
     color: #8A6C00;
     white-space: nowrap;
+}
+
+ {
+    background-color: rgba(0, 0, 0, 0.3)!important;
 }
 
 /*.bg-image-star {
@@ -507,6 +638,7 @@ input[type=submit]:hover {
     margin-bottom: 7px;
     margin-left: 19%;
     width: 60%;
+    background-color: rgb(255 255 255 / 0.4);
 }
 
 #bookinginfo {
@@ -523,3 +655,168 @@ input[type=submit]:hover {
     color: white;
 }
 
+.social-links {
+    padding-bottom: 0px;
+    padding-top: 10px;
+    margin-left: 135%;
+    white-space: nowrap;
+}
+
+.social-links li a i {
+    width: 32px;
+    height: 32px;
+    padding: 12px 0;
+    border-radius: 50%;
+    border: 1px solid #255222;
+    font-size: 20px;
+    line-height: 7px;
+    text-align: center;
+    color: white;
+    background: #255222;
+    transition: all 0.35s ease-in-out;
+    -moz-transition: all 0.35s ease-in-out;
+    -webkit-transition: all 0.35s ease-in-out;
+    -o-transition: all 0.35s ease-in-out;
+}
+
+.social-links li a i:hover {
+    background: #ac460c;
+}
+
+.exp-social-links {
+    padding-bottom: 0px;
+    padding-top: 20px;
+    margin-left: 275%;
+    white-space: nowrap;
+}
+
+.exp-social-links li a i {
+    width: 32px;
+    height: 32px;
+    padding: 12px 0;
+    border-radius: 50%;
+    border: 1px solid #ac460c;
+    font-size: 20px;
+    line-height: 7px;
+    text-align: center;
+    color: white;
+    background: #ac460c;
+    transition: all 0.35s ease-in-out;
+    -moz-transition: all 0.35s ease-in-out;
+    -webkit-transition: all 0.35s ease-in-out;
+    -o-transition: all 0.35s ease-in-out;
+}
+
+.exp-social-links li a i:hover {
+    background: #ffde69;
+}
+
+.aburi-social-links {
+   white-space: nowrap;
+   margin-left: 1240px; 
+   margin-top: 580px;
+}
+
+.aburi-social-links li a i {
+    width: 32px;
+    height: 32px;
+    padding: 12px 0;
+    border-radius: 50%;
+    border: 1px solid #ac460c;
+    font-size: 20px;
+    line-height: 7px;
+    text-align: center;
+    color: white;
+    background: #ac460c;
+    white-space: nowrap;
+    transition: all 0.35s ease-in-out;
+    -moz-transition: all 0.35s ease-in-out;
+    -webkit-transition: all 0.35s ease-in-out;
+    -o-transition: all 0.35s ease-in-out;
+}
+
+.aburi-social-links li a i:hover {
+    background: #ffde69;
+}
+
+.elmina-social-links {
+   white-space: nowrap;
+   margin-left: 1240px; 
+   margin-top: 1080px;
+}
+
+.elmina-social-links li a i {
+    width: 32px;
+    height: 32px;
+    padding: 12px 0;
+    border-radius: 50%;
+    border: 1px solid #ac460c;
+    font-size: 20px;
+    line-height: 7px;
+    text-align: center;
+    color: white;
+    background: #ac460c;
+    transition: all 0.35s ease-in-out;
+    -moz-transition: all 0.35s ease-in-out;
+    -webkit-transition: all 0.35s ease-in-out;
+    -o-transition: all 0.35s ease-in-out;
+}
+
+.elmina-social-links li a i:hover {
+    background: #ffde69;
+}
+
+.festivals-social-links {
+   white-space: nowrap;
+   margin-left: 1230px; 
+   margin-top: 300px;
+}
+
+.festivals-social-links li a i {
+    width: 32px;
+    height: 32px;
+    padding: 12px 0;
+    border-radius: 50%;
+    border: 1px solid #ac460c;
+    
+    font-size: 20px;
+    line-height: 7px;
+    text-align: center;
+    color: white;
+    background: #ac460c;
+    transition: all 0.35s ease-in-out;
+    -moz-transition: all 0.35s ease-in-out;
+    -webkit-transition: all 0.35s ease-in-out;
+    -o-transition: all 0.35s ease-in-out;
+}
+
+.festivals-social-links li a i:hover {
+    background: #ffde69;
+}
+
+.contact-social-links {
+   white-space: nowrap;
+   margin-left: 1240px; 
+   margin-top: 25px;
+}
+
+.contact-social-links li a i {
+    width: 32px;
+    height: 32px;
+    padding: 12px 0;
+    border-radius: 50%;
+    border: 1px solid #ac460c;
+    font-size: 20px;
+    line-height: 7px;
+    text-align: center;
+    color: white;
+    background: #ac460c;
+    transition: all 0.35s ease-in-out;
+    -moz-transition: all 0.35s ease-in-out;
+    -webkit-transition: all 0.35s ease-in-out;
+    -o-transition: all 0.35s ease-in-out;
+}
+
+.contact-social-links li a i:hover {
+    background: #ffde69;
+}
