@@ -1,9 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:100,200,300,400,500,600,700|Exo:100,200,300,400,500,600,700');
 
-body {
-    background-color: #fff;
-}
-
 .contact-bg {
     background-image: url("../images/ghana-beach-sml.jpg")!important;
 }
@@ -20,8 +16,36 @@ font-size: 1.5rem;
     background-image: url("data:image/svg+xml,%3csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3e%3cpath stroke='rgba(255, 255, 255, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
 }
 
-.navbar-light2 .navbar-toggler-icon2 {
-    background-image: url("data:image/svg+xml,%3csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3e%3cpath stroke='rgba(138, 108, 24, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e")!important;
+.navbar-light2 .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml,%3csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3e%3cpath stroke='rgba(138, 108, 0, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e")!important;
+}
+
+.navbar-light .navbar-nav .active>.nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show>.nav-link {
+    color: rgb(255 255 255 / 90%);
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: rgb(255 255 255 / 100%);
+}
+
+.nav-link {
+    color: rgb(255 255 255 / 100%);
+}
+
+.nav-link:hover {
+    color: #4d6871;
+}
+
+.nav-link2 {
+    color: rgb(138 108 24);
+}
+
+.nav-link2:hover {
+    color: #4d6871;
+}
+
+ul {
+  list-style-type: none;
 }
 
 .bg-custom { 
@@ -35,6 +59,13 @@ cursor: pointer;
 
 .navbar {
 color: white !important;
+background-color: rgba(0,0,0,0.2)!important;
+position: absolute;
+z-index: 100000;
+}
+
+.navbar2 {
+color: rgb(138, 108, 0) !important;
 background-color: rgba(0,0,0,0.2)!important;
 position: absolute;
 z-index: 100000;
@@ -79,12 +110,14 @@ background: rgba(0, 0, 255, 0) !important;
     background-image: url("../images/festival1.jpg");
     min-height: 900px;
     min-width: 100vw;
+    background-size: cover;
     }
 
 .bg-image-img3 { 
     background-image: url("../images/e1.jpg");
     min-height: 900px;
     min-width: 100%;
+    background-size: cover;
     }
 
 .logo {
@@ -99,7 +132,7 @@ background: rgba(0, 0, 255, 0) !important;
     color: #fff;
     border: 3px solid;
     padding: 12px 10px;
-    
+    white-space: nowrap;
 }
 
 .btn1 {
@@ -130,7 +163,7 @@ background: rgba(0, 0, 255, 0) !important;
   position: absolute;
   bottom: 50%;
   left: 45%;
-  background-color: rgba(0,0,0, 0.3);
+  background-color: rgba(0,0,0, 0.7);
   color: rgb(255, 255, 255);
   font-size: 23px;
   padding: 12px 24px;
@@ -142,7 +175,7 @@ background: rgba(0, 0, 255, 0) !important;
   position: absolute;
   bottom: 50%;
   left: 45%;
-  background-color: rgba(0,0,0, 0.3);
+  background-color: rgba(0,0,0, 0.9);
   color: rgb(255, 255, 255);
   font-size: 23px;
   padding: 12px 24px;
@@ -163,27 +196,31 @@ background: rgba(0, 0, 255, 0) !important;
 }
 
 .btn1:hover {
-  background: #255222;
+  background: #8A6C00;
+  border-color: #8A6C00;
 }
 
 .btn2:hover {
-  background: #255222;
+  background: #8A6C00;
+  border-color: #8A6C00;
 }
 
 .btn3:hover {
-  background: #255222;
+  background: #8A6C00;
+  border-color: #8A6C00;
 }
 
 .btn4:hover {
-  background: #255222;
+  background: #8A6C00;
+  border-color: #8A6C00;
 }
 
 .btn5:hover {
-  background: #ac460c;
+  background: #4d6871;
+  border-color: #4d6871;
 }
 
-
-.arrow-down {
+/*.arrow-down {
   border: solid white;
   font-size: 5px;
   margin-left: 50%;
@@ -192,9 +229,9 @@ background: rgba(0, 0, 255, 0) !important;
   padding: 3px;
   transform: rotate(45deg);
   -webkit-transform: rotate(45deg);
-}
+}*/
 
-.experience-logo {
+.about-logo {
     position: absolute;
     font-family: "Roboto", sans-serif;
     font-weight: 100;
@@ -207,15 +244,23 @@ background: rgba(0, 0, 255, 0) !important;
     padding: 12px 10px;
     background: #8A6C00;
     color: white;
+    white-space: nowrap;
 }
 
-.experience-title {
+.about-title {
     text-align: center;
     margin-top: 160px;
     margin-left: 630px;
     font-size: 27px;
     white-space: nowrap;
     color: #8A6C00;
+}
+
+.about-img {
+    background-image: url("../images/friends.jpg");
+    margin-left: 5%;
+    min-height: 500px;
+    min-width: 680px;
 }
 
 .bg-image-img4 {
@@ -250,7 +295,8 @@ transform: scale(1.5)
 }
 
 .btn6:hover {
-  background: #ac460c;
+  background: #4d6871;
+  border-color: #4d6871;
 }
 
 .bg-image-img6 {
@@ -274,7 +320,17 @@ transform: scale(1.5)
 }
 
  .btn7:hover {
-  background: #ac460c;
+  background: #4d6871;
+  border-color: #4d6871;
+}
+
+.about-us {
+    width: 570px;
+    text-align: left;
+    color: #8A6C00;
+    margin-left: 56%;
+    margin-top: 6%;
+    margin-bottom: -3%;
 }
 
 .festival-logo {
@@ -290,6 +346,7 @@ transform: scale(1.5)
     padding: 12px 10px;
     background: #8A6C00;
     color: white;
+    white-space: nowrap;
 }
 
 .festival-title {
@@ -299,15 +356,17 @@ transform: scale(1.5)
     font-size: 27px;
     white-space: nowrap;
     color: #8A6C00;
+    
 }
 
-.headline {
+.headline-fst {
     width: 610px;
     text-align: left;
     color: #8A6C00;
-    margin-top: -1500px;
-    margin-left: 53%;
+    margin-left: 56%;
     margin-bottom: -4%;
+    text-decoration: underline;
+    margin-top: -1550px;
 }
 
 h5 {
@@ -316,11 +375,11 @@ h5 {
     margin-left: 53%;
 }
 
-.about {
+.about-fst {
     width: 570px;
     text-align: left;
     color: #8A6C00;
-    margin-left: 53%;
+    margin-left: 56%;
     margin-top: 6%;
 }
 
@@ -334,6 +393,44 @@ h5 {
     font-size: 20px;
 }
 
+.itinerary-header-fst {
+    width: 570px;
+    text-align: left;
+    color: #8A6C00;
+    margin-left: 56%;
+    margin-top: 6%;
+    margin-bottom: -5%;
+    font-size: 20px;
+}
+
+.itinerary-fst {
+    width: 570px;
+    text-align: left;
+    color: #8A6C00;
+    margin-left: 56%;
+    margin-top: 6%;
+    margin-bottom: -3%;
+}
+
+.paym-header-fst {
+    width: 570px;
+    text-align: left;
+    color: #8A6C00;
+    margin-left: 56%;
+    margin-top: 10%;
+    margin-bottom: -7%;
+    font-size: 20px;
+}
+
+.paym-fst {
+    width: 570px;
+    text-align: left;
+    color: #8A6C00;
+    margin-left: 56%;
+    margin-top: 6%;
+    margin-bottom: -3%;
+}
+
 .itinerary {
     width: 570px;
     text-align: left;
@@ -345,7 +442,7 @@ h5 {
 
 .festival-map {
     margin-top: 10%;
-    margin-left: 8%;
+    margin-left: 30%;
     margin-bottom: -20%;
     border: 3px solid #8A6C00;
 }
@@ -354,13 +451,15 @@ h5 {
     color: white;
     background-color: #8A6C00;
     font-size: 15px;
-    margin-top: 40px;
-    margin-left: 250px;
+    margin-top: 80px;
+    margin-left: 810px;
+    border-color: #8A6C00;
 }
 
 .btn-fst:hover {
-    background: #ac460c;
+    background: #4d6871;
     color: white;
+    border-color: #4d6871;
 }
 
 .bg-image-img7 {
@@ -403,10 +502,13 @@ h5 {
     padding: 12px 10px;
     background: #8A6C00;
     color: white;
+    white-space: nowrap;
 }
 
 .elmina-headline {
     margin-top: -1750px;
+    text-decoration: underline;   
+     margin-left: 56%;
 }
 
 .elmina-title {
@@ -416,6 +518,52 @@ h5 {
     font-size: 27px;
     white-space: nowrap;
     color: #8A6C00;
+}
+
+.about-elm {
+    width: 570px;
+    text-align: left;
+    color: #8A6C00;
+    margin-left: 56%;
+    margin-top: 6%;
+}
+
+.itinerary-header-elm {
+    width: 570px;
+    text-align: left;
+    color: #8A6C00;
+    margin-left: 56%;
+    margin-top: 6%;
+    margin-bottom: -5%;
+    font-size: 20px;
+}
+
+.itinerary-elm {
+    width: 570px;
+    text-align: left;
+    color: #8A6C00;
+    margin-left: 56%;
+    margin-top: 6%;
+    margin-bottom: -3%;
+}
+
+.paym-header-elm {
+    width: 570px;
+    text-align: left;
+    color: #8A6C00;
+    margin-left: 56%;
+    margin-top: 10%;
+    margin-bottom: -7%;
+    font-size: 20px;
+}
+
+.paym-elm {
+    width: 570px;
+    text-align: left;
+    color: #8A6C00;
+    margin-left: 56%;
+    margin-top: 6%;
+    margin-bottom: -3%;
 }
 
 .bg-image-img10 {
@@ -445,13 +593,15 @@ h5 {
     color: white;
     background-color: #8A6C00;
     font-size: 15px;
-    margin-top: -150px;
-    margin-left: 1250px;
+    margin-top: -800px;
+    margin-left: 800px;
+    border-color: #8A6C00;
 }
 
 .btn-elm:hover {
-    background: #ac460c;
+    background: #4d6871;
     color: white;
+    border-color: #4d6871;
 }
 
 .elm-map {
@@ -474,6 +624,7 @@ h5 {
     padding: 12px 10px;
     background: #8A6C00;
     color: white;
+    white-space: nowrap;
 }
 
 .aburi-title {
@@ -491,7 +642,6 @@ h5 {
     margin-left: 10%;
     min-height: 723px;
     min-width: 600px;
-    overflow:scroll;
 }
 
 .bg-image-img14 {
@@ -500,7 +650,6 @@ h5 {
     margin-bottom: 5%;
     min-height: 450px;
     min-width: 600px;
-    overflow:scroll;
 }
 
 .aburi-headline {
@@ -604,6 +753,7 @@ input[type=submit]:hover {
     background-color:#8A6C00; 
     border: 3px solid #8A6C00;
     padding: 12px 10px;
+    white-space: nowrap;
 }
 
 .contact-title {
@@ -616,9 +766,9 @@ input[type=submit]:hover {
     white-space: nowrap;
 }
 
- {
+ /* {
     background-color: rgba(0, 0, 0, 0.3)!important;
-}
+} */
 
 /*.bg-image-star {
     background-image: url("../images/blackstar.jpg");
@@ -631,6 +781,7 @@ input[type=submit]:hover {
 .btn-book {
     background: #8A6C00;
     border: 3px solid #8A6C00;
+    border-color: #8A6C00;
 }
 
 .form-control {
@@ -651,14 +802,15 @@ input[type=submit]:hover {
 }
 
 .btn-book:hover {
-    background: #ac460c;
+    background: #4d6871;
     color: white;
+    border-color: #4d6871;
 }
 
 .social-links {
     padding-bottom: 0px;
     padding-top: 10px;
-    margin-left: 135%;
+    margin-left: 10%;
     white-space: nowrap;
 }
 
@@ -667,12 +819,12 @@ input[type=submit]:hover {
     height: 32px;
     padding: 12px 0;
     border-radius: 50%;
-    border: 1px solid #255222;
+    border: 1px solid #8A6C00;
     font-size: 20px;
     line-height: 7px;
     text-align: center;
     color: white;
-    background: #255222;
+    background: #8A6C00;
     transition: all 0.35s ease-in-out;
     -moz-transition: all 0.35s ease-in-out;
     -webkit-transition: all 0.35s ease-in-out;
@@ -680,35 +832,36 @@ input[type=submit]:hover {
 }
 
 .social-links li a i:hover {
-    background: #ac460c;
+    background: #4d6871;
+    
 }
 
-.exp-social-links {
+.ab-social-links {
     padding-bottom: 0px;
     padding-top: 20px;
     margin-left: 275%;
     white-space: nowrap;
 }
 
-.exp-social-links li a i {
+.ab-social-links li a i {
     width: 32px;
     height: 32px;
     padding: 12px 0;
     border-radius: 50%;
-    border: 1px solid #ac460c;
+    border: 1px solid #8A6C00;
     font-size: 20px;
     line-height: 7px;
     text-align: center;
     color: white;
-    background: #ac460c;
+    background: #8A6C00;
     transition: all 0.35s ease-in-out;
     -moz-transition: all 0.35s ease-in-out;
     -webkit-transition: all 0.35s ease-in-out;
     -o-transition: all 0.35s ease-in-out;
 }
 
-.exp-social-links li a i:hover {
-    background: #ffde69;
+.ab-social-links li a i:hover {
+    background: #4d6871;
 }
 
 .aburi-social-links {
@@ -722,12 +875,12 @@ input[type=submit]:hover {
     height: 32px;
     padding: 12px 0;
     border-radius: 50%;
-    border: 1px solid #ac460c;
+    border: 1px solid #8A6C00;
     font-size: 20px;
     line-height: 7px;
     text-align: center;
     color: white;
-    background: #ac460c;
+    background: #8A6C00;
     white-space: nowrap;
     transition: all 0.35s ease-in-out;
     -moz-transition: all 0.35s ease-in-out;
@@ -736,13 +889,13 @@ input[type=submit]:hover {
 }
 
 .aburi-social-links li a i:hover {
-    background: #ffde69;
+    background: #4d6871;
 }
 
 .elmina-social-links {
    white-space: nowrap;
-   margin-left: 1240px; 
-   margin-top: 1080px;
+   margin-left: 1180px; 
+   margin-top: 300px;
 }
 
 .elmina-social-links li a i {
@@ -750,12 +903,12 @@ input[type=submit]:hover {
     height: 32px;
     padding: 12px 0;
     border-radius: 50%;
-    border: 1px solid #ac460c;
+    border: 1px solid #8A6C00;
     font-size: 20px;
     line-height: 7px;
     text-align: center;
     color: white;
-    background: #ac460c;
+    background: #8A6C00;
     transition: all 0.35s ease-in-out;
     -moz-transition: all 0.35s ease-in-out;
     -webkit-transition: all 0.35s ease-in-out;
@@ -763,7 +916,7 @@ input[type=submit]:hover {
 }
 
 .elmina-social-links li a i:hover {
-    background: #ffde69;
+    background: #4d6871;
 }
 
 .festivals-social-links {
@@ -777,13 +930,12 @@ input[type=submit]:hover {
     height: 32px;
     padding: 12px 0;
     border-radius: 50%;
-    border: 1px solid #ac460c;
-    
+    border: 1px solid #8A6C00;;
     font-size: 20px;
     line-height: 7px;
     text-align: center;
     color: white;
-    background: #ac460c;
+    background: #8A6C00;;
     transition: all 0.35s ease-in-out;
     -moz-transition: all 0.35s ease-in-out;
     -webkit-transition: all 0.35s ease-in-out;
@@ -791,7 +943,7 @@ input[type=submit]:hover {
 }
 
 .festivals-social-links li a i:hover {
-    background: #ffde69;
+    background: #4d6871;
 }
 
 .contact-social-links {
@@ -805,12 +957,12 @@ input[type=submit]:hover {
     height: 32px;
     padding: 12px 0;
     border-radius: 50%;
-    border: 1px solid #ac460c;
+    border: 1px solid rgb(255, 255, 255);
     font-size: 20px;
     line-height: 7px;
     text-align: center;
     color: white;
-    background: #ac460c;
+    background: #8A6C00;
     transition: all 0.35s ease-in-out;
     -moz-transition: all 0.35s ease-in-out;
     -webkit-transition: all 0.35s ease-in-out;
@@ -818,5 +970,138 @@ input[type=submit]:hover {
 }
 
 .contact-social-links li a i:hover {
-    background: #ffde69;
+    background: #4d6871;
+}
+
+
+body {
+    background-color: #fff;
+    width: 100vw !important;
+}
+
+
+@media(max-width: 550px) {
+    .logo {
+        margin-left: 84px;
+        white-space: nowrap;
+        width: 58%;
+    }
+
+    .title {
+        margin-top: 35%;
+        margin-left: 5%;
+    }
+
+    .btn1 {
+        margin-left: 2%;
+        font-size: 20px;
+    }
+
+    .btn2 {
+        margin-top: 20%;
+        margin-right: 5%;
+        font-size: 20px;
+    }
+
+    .btn3 {
+        margin-left: -10%;
+    }
+
+    .btn4 {
+        margin-left: -10%;
+    }
+
+    .festival-logo {
+        width: 58%;
+        margin-left: 20%;
+    }
+
+    .festival-title {
+        margin-left: 80%;
+    }
+
+    .headline-fst {
+        margin-left: 2%;
+        margin-top: 10%;
+        width: 95%;
+        text-align: center;
+    }
+
+    .about-fst {
+        margin-left: 2%;
+        width: 95%;
+        text-align: center;
+    }
+    
+    .itinerary-header-fst {
+        margin-top: 12%;
+        width: 95%;
+        text-align: center;
+        margin-left: 2%;
+    }
+
+    .itinerary-fst {
+        margin-top: 5%;
+        width: 95%;
+        text-align: center;
+        margin-left: 2%;
+    }
+    
+    .paym-header-fst {
+        margin-top: 15%;
+        margin-bottom: 0px;
+        width: 95%;
+        text-align: center;
+        margin-left: 2%;
+    }    
+
+    .paym-fst {
+        margin-top: -5%;
+        width: 95%;
+        text-align: center;
+        margin-left: 2%;
+    }
+
+    .btn-fst {
+        margin-left: 40%;
+        margin-top: 10%;
+    }
+
+    .festivals-social-links {
+        margin-left: 25%;
+        margin-top: 10%;
+        margin-bottom: 20%;
+    }
+
+    .bg-image-img7 {
+        min-height: 450px;
+        min-width: 100px; 
+        margin-left: 0px;
+    }
+
+    .bg-image-img8 {
+        min-height: 450px;
+        min-width: 100px; 
+        margin-left: 0px;
+    }
+
+    .bg-image-img9 {
+        min-height: 450px;
+        min-width: 100px; 
+        margin-left: 0px;
+    }
+
+    .form-control {
+        margin-left: 23%;
+    }
+
+    .social-links {
+        padding-bottom: 2px;
+        min-height: 5px;
+        margin: 0 auto;
+        max-width: 10%;
+        white-space: nowrap;
+    }
+
+
 }
