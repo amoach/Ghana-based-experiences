@@ -1,4 +1,6 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:100,200,300,400,500,600,700|Exo:100,200,300,400,500,600,700');
+@import url('https://fonts.googleapis.com/css?family=Roboto:100,200,300,400,500,600,700|Exo:100,200,300,400,500,600,700');
+
+html { scroll-behavior: smooth; }
 
 .contact-bg {
     background-image: url("../images/ghana-beach-sml.jpg")!important;
@@ -46,6 +48,24 @@ font-size: 1.5rem;
     color: #4d6871;
 }
 
+.nav-link3 {
+    color: rgb(138, 108, 24);
+    display: block;
+    padding: .1rem rem;
+    background-color: rgb(255 255 255 / 80%);
+}
+
+
+.navbar-toggler3 {
+    background-color: rgb(255 255 255 / 80%);
+    border: 0px;
+    padding: 6px;
+}
+
+.nav-link3:hover {
+    color: #4d6871;
+}
+
 ul {
   list-style-type: none;
 }
@@ -69,6 +89,13 @@ z-index: 100000;
 .navbar2 {
 color: rgb(138, 108, 0) !important;
 background-color: rgba(0,0,0,0.2)!important;
+position: fixed;
+z-index: 100000;
+}
+
+.navbar3 {
+color: rgb(138, 108, 0) !important;
+background-color: rgba(255, 255, 255, 0.5)!important;
 position: fixed;
 z-index: 100000;
 }
@@ -120,6 +147,7 @@ background: rgba(0, 0, 255, 0) !important;
     min-height: 900px;
     min-width: 100%;
     background-size: cover;
+    padding-bottom: 0px;
     }
 
 .overlay {
@@ -136,14 +164,17 @@ background: rgba(0, 0, 255, 0) !important;
     font-family: "Roboto", sans-serif;
     font-weight: 100;
     font-size: 30px;
-    width: 50%;
+    width: 20%;
     text-align: center;
     margin-top: 30px;
-    margin-left: 330px;
+    margin-left: 550px;
     color: #fff;
     border: 3px solid;
-    padding: 12px 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
     white-space: nowrap;
+    margin-top: 30px;
+    margin-left: 550px;
 }
 
 .btn1 {
@@ -231,6 +262,12 @@ background: rgba(0, 0, 255, 0) !important;
   border-color: #4d6871;
 }
 
+.backtotop {
+    position: fixed;
+    z-index: 2;
+    bottom: 0;
+}
+
 /*.arrow-down {
   border: solid white;
   font-size: 5px;
@@ -265,7 +302,7 @@ background: rgba(0, 0, 255, 0) !important;
 
 .about-title {
     text-align: center;
-    margin-top: 150px;
+    margin-top: 170px;
     margin-bottom: 50px;
     margin-left: 1000%;
     font-size: 27px;
@@ -376,8 +413,8 @@ transform: scale(1.5)
 
 .festival-title {
     text-align: center;
-    margin-top: 160px;
-    margin-left: 200px;
+    margin-top: 180px;
+    margin-left: 165px;
     font-size: 27px;
     white-space: nowrap;
     color: #8A6C00;
@@ -538,7 +575,7 @@ h5 {
 
 .elmina-title {
     text-align: center;
-    margin-top: 160px;
+    margin-top: 180px;
     margin-left: 186px;
     font-size: 27px;
     white-space: nowrap;
@@ -654,8 +691,8 @@ h5 {
 
 .aburi-title {
     text-align: center;
-    margin-top: 160px;
-    margin-left: 186px;
+    margin-top: 180px;
+    margin-left: 166px;
     font-size: 27px;
     white-space: nowrap;
     color: #8A6C00;
@@ -733,15 +770,94 @@ h5 {
     margin-bottom: -3%;
 }
 
+.bg-image-img15 {
+    background-image: url("../images/g1.jpg");
+    min-height: 700px;
+    min-width: 500px;    
+}
+
+.bg-image-img16 {
+    background-image: url("../images/g2.jpg");
+    min-height: 700px;
+    min-width: 30px; 
+    margin-top: -48.6%;
+    margin-left: 58.3%;
+}
+
+.bg-image-img17 {
+    background-image: url("../images/g3.jpg");
+    min-height: 700px;
+    min-width: 400px; 
+}
+
+.bg-image-img18 {
+    background-image: url("../images/g4.jpg");
+    min-height: 700px;
+    min-width: 400px; 
+    margin-top: -48.7%;
+    margin-left: 50%;
+}
+
+.bg-image-img19 {
+    background-image: url("../images/g5.jpg");
+    min-height: 700px;
+    min-width: 350px; 
+    
+}
+
+.bg-image-img20 {
+    background-image: url("../images/g6.jpg");
+    min-height: 700px;
+    min-width: 650px; 
+    margin-top: -48.7%;
+    margin-left: 41.7%;
+}
+
+.bg-image-img21 {
+    background-image: url("../images/g7.jpg");
+    min-height: 700px;
+    min-width: 200px;
+    margin-top: 0%;
+}
+
+.bg-image-img22 {
+    background-image: url("../images/g8.jpg");
+    min-height: 700px;
+    min-width: 300px; 
+    margin-top: -48.6%;
+    margin-left: 58.3%;
+}
+
+.bg-image-img23 {
+    background-image: url("../images/g9.jpg");
+    min-height: 700px;
+    min-width: 450px; 
+    margin-top: 0%;
+    margin-left: 0%;
+}
+
+.bg-image-img24 {
+    background-image: url("../images/g10.jpg");
+    min-height: 700px;
+    min-width: 600px; 
+    margin-top: -48.7%;
+    margin-left: 58.3%;
+}
+
+.gallery-social-links {
+    margin-right: -5%;
+    margin-top: 15%;
+}
+
 .contact-logo {
     position: absolute;
     font-family: "Roboto", sans-serif;
     font-weight: 100;
     font-size: 30px;
-    width: 50%;
+    width: 17%;
     text-align: center;
     margin-top: 30px;
-    margin-left: 330px;
+    margin-left: 570px;
     margin-bottom: 100px;
     color: white;
     background-color:#8A6C00; 
@@ -805,6 +921,8 @@ h5 {
     margin-top: -10%;
     margin-left: 270%;
     white-space: nowrap;
+    padding-bottom: 0px;
+    margin-bottom: 10px;
 }
 
 .social-links li a i {
@@ -826,7 +944,16 @@ h5 {
 
 .social-links li a i:hover {
     background: #4d6871;
-    
+}
+
+.circle-up {
+    font-size: 60px;
+    color: rgb(138, 108, 0 , 0.7);
+    background: transparent;
+    margin-left: 1350%;
+    margin-bottom: 50px;
+    margin-top: -400%;
+    padding-bottom: 0px;
 }
 
 .ab-social-links {
@@ -834,6 +961,7 @@ h5 {
     padding-top: 20px;
     margin-left: 275%;
     white-space: nowrap;
+    margin-top: -10%;
 }
 
 .ab-social-links li a i {
@@ -923,12 +1051,12 @@ h5 {
     height: 32px;
     padding: 12px 0;
     border-radius: 50%;
-    border: 1px solid #8A6C00;;
+    border: 1px solid #8A6C00;
     font-size: 20px;
     line-height: 7px;
     text-align: center;
     color: white;
-    background: #8A6C00;;
+    background: #8A6C00;
     transition: all 0.35s ease-in-out;
     -moz-transition: all 0.35s ease-in-out;
     -webkit-transition: all 0.35s ease-in-out;
@@ -1000,11 +1128,29 @@ body {
         background-color: rgb(255 255 255 / 100%);
     }
 
+    .navbar3 { 
+        margin-top: 1%;
+        background-color: rgb(255 255 255 / 90%);
+        position: fixed;
+    }
+
+    .navbar-nav3 {
+        background-color: rgb(255 255 255 / 100%);
+    }
+
     .logo {
-        margin-left: 84px;
+        margin: auto;
         white-space: nowrap;
         width: 58%;
+        position: absolute;
+        top: 50%;
+        left: 25%;
         margin-top: 30%;
+        margin-left: 84px;*/
+    }
+
+    .logo-container {
+        width: 100%;
     }
 
     .title {
@@ -1027,23 +1173,16 @@ body {
         margin-left: -13%;
     }
 
-    .social-links {
-        min-height: 5px;
-        margin-left: 27%;
-        max-width: 10%;
-        white-space: nowrap;
-    }
-
     .about-logo {
-        margin-left: 37px;
+        margin-left: 56px;
         white-space: nowrap;
         width: 58%;
-        margin-top: 20%;
+        margin-top: 15%;
     }
 
     .about-title {
-        margin-top: 150%;
-        margin-left: 80%;
+        margin-top: 175%;
+        margin-left: 90%;
     }
 
     .about-bg {
@@ -1053,16 +1192,16 @@ body {
     }
 
     .about-img {
-        margin-left: 2%;
+        margin-left: 9%;
     }
 
     .about-us {
-        margin-left: 2%;
-        width: 80%;
+        margin-left: 3.5%;
+        width: 93%;
     }
 
     .ab-social-links {
-        margin-left: 18%;
+        margin-left: 25%;
         margin-bottom: 5%;
         margin-top: -5%;
     }
@@ -1079,7 +1218,7 @@ body {
 
     .festival-title {
         margin-left: 52%;
-        margin-top: 100%;
+        margin-top: 135%;
     }
 
     .headline-fst {
@@ -1140,6 +1279,7 @@ body {
         min-height: 450px;
         min-width: 50px;
         margin-left: 0px;
+        margin-top: 20%;
         padding-left: 0px;
         border: 5px solid rgb(255, 255, 255);
     }
@@ -1167,8 +1307,8 @@ body {
     }
 
     .elmina-title {
-        margin-left: 52%;
-        margin-top: 100%;
+        margin-left: 67%;
+        margin-top: 130%;
     }
 
     .elmina-headline {
@@ -1256,8 +1396,8 @@ body {
     }
 
     .aburi-title {
-        margin-left: 40%;
-        margin-top: 100%;
+        margin-left: 35aqa,%;
+        margin-top: 115%;
     }
 
     .aburi-headline {
@@ -1342,7 +1482,7 @@ body {
 
     .contact-title {
         margin-left: 7%;
-        margin-top: 50%;
+        margin-top: 60%;
     }
 
     .form-control {
@@ -1360,13 +1500,3 @@ body {
         border-color: #8A6C00;
     }
 }
-
-@media (max-width: 978px) {
-    .row {
-      padding:0;
-      margin:0;
-    }
-
-    body {
-      padding:0;
-    }
