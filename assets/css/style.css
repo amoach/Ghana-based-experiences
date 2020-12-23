@@ -570,7 +570,7 @@ h5 {
 .elmina-headline {
     margin-top: -1750px;
     text-decoration: underline;   
-     margin-left: 56%;
+    margin-left: 56%;
 }
 
 .elmina-title {
@@ -581,6 +581,7 @@ h5 {
     white-space: nowrap;
     color: #8A6C00;
 }
+
 
 .about-elm {
     width: 570px;
@@ -655,8 +656,8 @@ h5 {
     color: white;
     background-color: #8A6C00;
     font-size: 15px;
-    margin-top: -800px;
-    margin-left: 800px;
+    margin-top: 100px;
+    margin-left: 820px;
     border-color: #8A6C00;
 }
 
@@ -1314,7 +1315,7 @@ body {
     .elmina-headline {
         margin-left: 5%;
         margin-top: 10%;
-        width: 90%;
+        width: 50%;
         text-align: center;
     }
 
