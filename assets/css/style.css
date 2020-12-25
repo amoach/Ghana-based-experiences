@@ -22,11 +22,25 @@ font-size: 1.5rem;
     background-image: url("data:image/svg+xml,%3csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3e%3cpath stroke='rgba(138, 108, 0, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e")!important;
 }
 
-.navbar-light .navbar-nav .active>.nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show>.nav-link {
+.navbar-light 
+.navbar-nav 
+.active>.nav-link, 
+.navbar-light 
+.navbar-nav 
+.nav-link
+.active, 
+.navbar-light 
+.navbar-nav 
+.nav-link.show, 
+.navbar-light 
+.navbar-nav 
+.show>.nav-link {
     color: rgb(255 255 255 / 90%);
 }
 
-.navbar-light .navbar-nav .nav-link {
+.navbar-light 
+.navbar-nav 
+.nav-link {
     color: rgb(255 255 255 / 100%);
 }
 
@@ -122,6 +136,10 @@ background: rgba(0, 0, 255, 0) !important;
 
 .dropdown-item {
     color: grey !important;
+}
+
+.row {
+    margin: auto;
 }
 
 .home-image {
@@ -288,7 +306,7 @@ background: rgba(0, 0, 255, 0) !important;
     position: absolute;
     font-family: "Roboto", sans-serif;
     font-weight: 100;
-    font-size: 30px;
+    font-size: 2rem;
     width: 50%;
     text-align: center;
     margin-top: 30px;
@@ -419,7 +437,7 @@ transform: scale(1.5)
 .festival-title {
     text-align: center;
     margin-top: 180px;
-    margin-left: 165px;
+    margin-left: -850%;
     font-size: 27px;
     white-space: nowrap;
     color: #8A6C00;
@@ -427,6 +445,7 @@ transform: scale(1.5)
 }
 
 .headline-fst {
+    font-size: 1.3rem;
     width: 610px;
     text-align: left;
     color: #8A6C00;
@@ -576,12 +595,15 @@ h5 {
     margin-top: -1750px;
     text-decoration: underline;   
     margin-left: 56%;
+    color: #8A6C00;
+    font-size: 1.3rem;
+    width: 570px;
 }
 
 .elmina-title {
     text-align: center;
     margin-top: 180px;
-    margin-left: 186px;
+    margin-left: -420px;
     font-size: 27px;
     white-space: nowrap;
     color: #8A6C00;
@@ -1223,7 +1245,7 @@ body {
     }
 
     .festival-title {
-        margin-left: 52%;
+        margin-left: 0%;
         margin-top: 135%;
     }
 
@@ -1313,12 +1335,12 @@ body {
     }
 
     .elmina-title {
-        margin-left: 67%;
+        margin-left: 5%;
         margin-top: 130%;
     }
 
     .elmina-headline {
-        margin-left: 5%;
+        margin-left: 23%;
         margin-top: 10%;
         width: 50%;
         text-align: center;
@@ -1478,7 +1500,7 @@ body {
 
     .contact-logo {
         width: 58%;
-        margin-left: 20%;
+        margin-left: -3%;
         margin-top: 15%;
     }    
 
@@ -1487,12 +1509,12 @@ body {
     }
 
     .contact-title {
-        margin-left: 7%;
+        margin-left: %;
         margin-top: 60%;
     }
 
     .form-control {
-        margin-left: 5%;
+        margin-left: 11px;
         width: 350px;
     }
 
@@ -1505,4 +1527,8 @@ body {
         margin-left: 30%;
         border-color: #8A6C00;
     }
+}
+
+@media(max-width: 480px) {
+
 }
