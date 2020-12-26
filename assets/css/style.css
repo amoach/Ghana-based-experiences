@@ -607,7 +607,6 @@ h5 {
     color: #8A6C00;
 }
 
-
 .about-elm {
     width: 570px;
     text-align: left;
@@ -788,6 +787,23 @@ h5 {
     margin-top: 6%;
     margin-bottom: -3%;
 }
+
+.gallery-logo {
+    position: absolute;
+    font-family: "Roboto", sans-serif;
+    font-weight: 100;
+    font-size: 30px;
+    width: 20%;
+    text-align: center;
+    margin-top: 30px;
+    margin-left: 38%;
+    border: 3px solid #8A6C00;
+    padding: 12px 10px;
+    background: #8A6C00;
+    color: white;
+    white-space: nowrap;
+}
+
 
 .gallery-title {
     text-align: center;
@@ -1171,14 +1187,12 @@ body {
     }
 
     .logo {
-        margin: auto;
         white-space: nowrap;
         width: 58%;
         position: absolute;
         top: 50%;
-        left: 25%;
         margin-top: -73%;
-        margin-left: -5%;
+        margin-left: -50%;
     }
 
     .logo-container {
@@ -1507,6 +1521,11 @@ body {
         margin-left: 0px;
         padding-left: 0px;
         border: 5px solid rgb(255, 255, 255);
+    }
+
+    .gallery-logo {
+        margin-top: 20%;
+        margin-left: -10%;
     }
 
     .contact-logo {
