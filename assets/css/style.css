@@ -913,7 +913,7 @@ h5 {
 .contact-title {
     text-align: center;
     margin-top: 160px;
-    margin-left: 110%;
+    margin-left: 143%;
     margin-bottom: 60px;
     font-size: 27px;
     color: #8A6C00;
@@ -1020,7 +1020,7 @@ h5 {
 .aburi-social-links {
    white-space: nowrap;
    margin-left: 1240px; 
-   margin-top: 580px;
+   margin-top: 500px;
 }
 
 .aburi-social-links li a i {
@@ -1075,7 +1075,7 @@ h5 {
 .festivals-social-links {
    white-space: nowrap;
    margin-left: 1230px; 
-   margin-top: 300px;
+   margin-top: 100px;
 }
 
 .festivals-social-links li a i {
@@ -1778,5 +1778,20 @@ body {
     .contact-social-links {
         margin-left: 700px;     
     }
+}
+
+@media(max-width: 1024px) {
+    .logo {
+        margin-left: 400px;
+    }
+
+    .contact-logo {
+        margin-left: 370px;
+    }
+
+    .about-title {
+        margin-left: -280px;
+    }    
+
 
 }
