@@ -1785,12 +1785,162 @@ body {
         margin-left: 400px;
     }
 
-    .contact-logo {
-        margin-left: 370px;
-    }
-
     .about-title {
         margin-left: -280px;
+    }
+
+    .festival-logo {
+        width: 80%;
+        margin-left: 110%;
+    }
+
+    .festival-title {
+        margin-left: -550%;
+    }
+
+    .bg-image-img7 {
+        min-width: 550px;
+    }
+
+    .bg-image-img8 {
+        min-width: 550px;
+    }
+    .bg-image-img9 {
+        min-width: 550px;
+    }
+
+    .headline-fst {
+        margin-top: -1560px;
+        margin-left: 57%;
+        width: 450px;
+    }
+    
+    .about-fst {
+        width: 480px;
+        margin-left: 57%;
+        width: 400px;
+        font-size: 15px;
+    }
+
+    .itinerary-header-fst {
+        margin-left: 57%;
+        margin-top: 3%;
+    }
+    
+    .itinerary-fst {
+        margin-left: 57%;
+        width: 400px;
+        font-size: 15px;
+    }
+
+    .paym-header-fst {
+        margin-left: 57%;
+        margin-top: 7%;
+    }
+
+    .paym-fst {
+        margin-left: 57%;
+        width: 400px;
+        font-size: 15px;
+    }
+
+    .btn-fst {
+        margin-left: 610px;
+    }
+
+    .festivals-social-links {
+        margin-left: 770px;
+    }
+
+    .elmina-logo {
+        width: 80%;
+        margin-left: 110%;
+    }
+
+    .elmina-title {
+        margin-left: -430%;
+    }
+
+    .bg-image-img10 {
+        min-width: 550px;
+    }
+
+    .bg-image-img11 {
+        min-width: 550px;
+        min-height: 600px;
+    }
+    .bg-image-img12 {
+        min-width: 550px;
+    }
+
+    .elmina-headline {
+        margin-top: -1650px;
+        margin-left: 57%;
+        width: 450px;
+    }
+    
+    .about-elm {
+        margin-left: 57%;
+        width: 400px;
+        font-size: 15px;
+    }
+
+    .itinerary-elm {
+        width: 400px;
+    }
+
+    .paym-elm {
+        width: 400px;
+    }
+
+    .btn-elm {
+        margin-left: 580px;
+    }
+
+    .elmina-social-links {
+        margin-left: 800px;
+        margin-top: 100px;
+    }
+    .aburi-logo {
+        width: 80%;
+        margin-left: 110%
+    }
+
+    .aburi-title {
+        margin-left: -330%;
+    }
+
+    .bg-image-img13 {
+        min-width: 550px;
+    }
+
+    .bg-image-img14 {
+        min-width: 550px;
+    }
+
+    .aburi-headline {
+        margin-top: -1220px;
+        width: 450px;
+    }
+
+    .aburi-about {
+        width: 400px;
+        font-size: 15px;
+    }
+
+    .aburi-itinerary {
+        width: 400px;
+        font-size: 15px;
+    }
+
+    .abr-paym {
+        width: 400px;
+        font-size: 15px;
+    }
+
+    .aburi-social-links {
+        margin-left: 800px;
+        margin-top: 100px;
     }
 
     .gallery-title {
@@ -1828,4 +1978,10 @@ body {
         min-width: 410px;
     }
 
+    .contact-logo {
+        margin-left: 370px;
     }
+
+    
+
+}
