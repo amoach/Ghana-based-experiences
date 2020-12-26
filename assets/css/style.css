@@ -323,9 +323,9 @@ background: rgba(0, 0, 255, 0) !important;
 
 .about-title {
     text-align: center;
-    margin-top: 170px;
+    margin-top: 200px;
     margin-bottom: 50px;
-    margin-left: 1000%;
+    margin-left: -500px;
     font-size: 27px;
     white-space: nowrap;
     color: #8A6C00;
@@ -1205,6 +1205,12 @@ body {
         margin-left: -13%;
     }
 
+    .social-links {
+        margin-left: 25%;
+        margin-top: -15%;
+        margin-bottom: 0%;
+    }
+
     .about-logo {
         margin-left: 56px;
         white-space: nowrap;
@@ -1213,8 +1219,9 @@ body {
     }
 
     .about-title {
-        margin-top: 175%;
-        margin-left: 50%;
+        margin-top: 200%;
+        margin-left: -6%;
+        margin-bottom: 50%;
     }
 
     .about-bg {
@@ -1533,6 +1540,135 @@ body {
     }
 }
 
-@media(max-width: 480px) {
+@media(max-width: 1200px) {
+    .logo {
+        margin-left: 490px;
+    }
+
+    .bg-image-img13 {
+        min-height: 733px;
+    }
+
+    .social-links {
+        margin-bottom: 0px;
+        padding-bottom: 0px;
+    }
+
+    .about-logo {
+        width: 70%;
+    }
+
+    .about-title {
+        margin-left: -300px;
+    }
+
+    .about-us {
+        margin-left: 25%;
+    }
     
+    .festivals-social-links {
+        margin-left: 1030px;     
+    }
+
+    .bg-image-img7 {
+        margin-left: 0%;
+        min-width: 650px;
+    }
+
+    .bg-image-img8 {
+        margin-left: 0%;
+        min-width: 650px
+    }
+
+    .bg-image-img9 {
+        margin-left: 0%;
+        min-width: 650px
+    }
+
+    .festival-title {
+        margin-left: -730%;
+    }
+
+    .headline-fst {
+        margin-top: -1560px;
+        margin-left: 57%;
+    }
+    
+    .about-fst {
+        width: 480px;
+        margin-left: 57%;
+    }
+
+    .itinerary-header-fst {
+        margin-left: 57%;
+        margin-top: 3%;
+    }
+    
+    .itinerary-fst {
+        margin-left: 57%;
+        width: 480px;
+    }
+
+    .paym-header-fst {
+        margin-left: 57%;
+        margin-top: 7%;
+    }
+
+    .paym-fst {
+        margin-left: 57%;
+        width: 480px;
+    }
+
+    .festivals-social-links {
+        margin-top: 100px;
+    }
+
+
+    .gallery-title {
+        margin-left: 148%;
+    }
+
+    .gallery-p {
+        margin-left: 50%;
+    }
+
+    .video {
+        margin-left: 26%;
+    }
+
+    .bg-image-img16 {
+        margin-top: -58.3%;
+    }
+
+    .bg-image-img18 {
+        margin-top: -58.4%;
+    }
+
+    .bg-image-img20 {
+        margin-top: -58.3%;
+    }
+
+    .bg-image-img22 {
+        margin-top: -58.3%;
+    }
+
+    .bg-image-img24 {
+        margin-top: -58.4%;
+        margin-left: 50.1%;
+    }
+
+    .contact-logo {
+        width: 25%;
+        margin-left: 37%;
+    }
+
+    .contact-title {
+        margin-left: 145%;
+        margin-top: 60%;
+    }
+
+    .contact-social-links {
+        margin-left: 700px;     
+    }
+
 }
