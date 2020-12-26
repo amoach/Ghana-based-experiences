@@ -1806,7 +1806,7 @@ body {
     }
 
     .bg-image-img16 {
-    margin-top: -68.3%;
+        margin-top: -68.3%;
     }
 
     .bg-image-img18 {
@@ -1814,7 +1814,8 @@ body {
     }
 
     .bg-image-img20 {
-    margin-top: -68.3%;
+        margin-top: -68.3%;
+        min-width: 598px;
     }
 
     .bg-image-img22 {
@@ -1822,7 +1823,9 @@ body {
     }
 
     .bg-image-img24 {
-    margin-top: -68.4%;
-    margin-left: 60.1%;
+        margin-top: -68.4%;
+        margin-left: 60.1%;
+        min-width: 410px;
+    }
 
-}
+    }
