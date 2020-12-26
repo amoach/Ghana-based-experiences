@@ -1791,7 +1791,38 @@ body {
 
     .about-title {
         margin-left: -280px;
-    }    
+    }
 
+    .gallery-title {
+        margin-left: 145%;
+    }
+
+    .gallery-p {
+        margin-left: 36%;
+    }
+
+    .video {
+        margin-left: 23%;
+    }
+
+    .bg-image-img16 {
+    margin-top: -68.3%;
+    }
+
+    .bg-image-img18 {
+        margin-top: -68.4%;
+    }
+
+    .bg-image-img20 {
+    margin-top: -68.3%;
+    }
+
+    .bg-image-img22 {
+    margin-top: -68.3%;
+    }
+
+    .bg-image-img24 {
+    margin-top: -68.4%;
+    margin-left: 60.1%;
 
 }
