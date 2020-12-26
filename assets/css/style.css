@@ -1559,11 +1559,11 @@ body {
     }
 
     .about-title {
-        margin-left: -300px;
+        margin-left: -350px;
     }
 
     .about-us {
-        margin-left: 25%;
+        margin-left: 27%;
     }
     
     .festivals-social-links {
@@ -1577,12 +1577,12 @@ body {
 
     .bg-image-img8 {
         margin-left: 0%;
-        min-width: 650px
+        min-width: 650px;
     }
 
     .bg-image-img9 {
         margin-left: 0%;
-        min-width: 650px
+        min-width: 650px;
     }
 
     .festival-title {
@@ -1621,6 +1621,114 @@ body {
 
     .festivals-social-links {
         margin-top: 100px;
+    } 
+    
+    .elmina-title {
+        margin-left: -530%;
+    }
+
+    .elmina-headline {
+        width: 450px;
+        margin-top: -1719px;
+        margin-left: 57%;
+    }
+
+    .bg-image-img10 {
+        margin-left: 0%;
+        min-width: 650px;
+    }
+
+    .bg-image-img11 {
+        margin-left: 0%;
+        min-width: 650px;
+        min-height: 650px;
+    }
+
+    .bg-image-img12 {
+        margin-left: 0%;
+        min-width: 650px;
+    }
+    
+    .about-elm {
+        width: 480px;
+        margin-left: 57%;
+    }
+
+    .itinerary-header-elm {
+        margin-left: 57%;
+        margin-top: 3%;
+    }
+    
+    .itinerary-elm {
+        margin-left: 57%;
+        width: 480px;
+    }
+
+    .paym-header-elm {
+        margin-left: 57%;
+        margin-top: 7%;
+    }
+
+    .paym-elm {
+        margin-left: 57%;
+        width: 480px;
+    }
+
+    .elmina-social-links {
+        margin-top: 300px;
+        margin-left: 1000px; 
+    }
+
+    .aburi-title {
+        margin-left: -400%;
+    }
+
+    .aburi-headline {
+        width: 450px;
+        margin-top: -1250px;
+        margin-left: 57%;
+    }
+
+    .bg-image-img13 {
+        margin-left: 0%;
+        min-width: 650px;
+    }
+
+    .bg-image-img14 {
+        margin-left: 0%;
+        min-width: 650px;
+        min-height: 450px;
+    }
+
+    
+    .aburi-about {
+        width: 480px;
+        margin-left: 57%;
+    }
+
+    .aburi-itinerary-header {
+        margin-left: 57%;
+        margin-top: 3%;
+    }
+    
+    .aburi-itinerary {
+        margin-left: 57%;
+        width: 480px;
+    }
+
+    .abr-paym-header {
+        margin-left: 57%;
+        margin-top: 7%;
+    }
+
+    .abr-paym {
+        margin-left: 57%;
+        width: 480px;
+    }
+
+    .aburi-social-links {
+        margin-top: 300px;
+        margin-left: 1000px; 
     }
 
 
