@@ -192,8 +192,6 @@ background: rgba(0, 0, 255, 0) !important;
     padding-top: 10px;
     padding-bottom: 10px;
     white-space: nowrap;
-    margin-top: 30px;
-    margin-left: 550px;
 }
 
 .my-3 {
@@ -694,13 +692,6 @@ h5 {
     border-color: #4d6871;
 }
 
-/*.elm-map {
-    margin-top: 53%;
-    margin-left: 15%;
-    margin-bottom: -20%;
-    border: 3px solid #8A6C00;
-}*/
-
 .aburi-logo {
     position: absolute;
     font-family: "Roboto", sans-serif;
@@ -720,7 +711,7 @@ h5 {
 .aburi-title {
     text-align: center;
     margin-top: 180px;
-    margin-left: 166px;
+    margin-left: -570%;
     font-size: 27px;
     white-space: nowrap;
     color: #8A6C00;
@@ -796,6 +787,31 @@ h5 {
     margin-left: 53%;
     margin-top: 6%;
     margin-bottom: -3%;
+}
+
+.gallery-title {
+    text-align: center;
+    margin-top: 180px;
+    margin-left: 143%;
+    margin-bottom: 10%;
+    font-size: 27px;
+    white-space: nowrap;
+    color: #8A6C00;
+}
+
+.gallery-p {
+    width: 800px;
+    text-align: center;
+    color: #8A6C00;
+    margin-left: 63%;
+    margin-top: 6%;
+    margin-bottom: 10%;
+}
+
+.video {
+    margin-left: 30%;
+    margin-bottom: 10%;
+    border: 4px solid #8A6C00;
 }
 
 .bg-image-img15 {
@@ -897,24 +913,12 @@ h5 {
 .contact-title {
     text-align: center;
     margin-top: 160px;
-    margin-left: 140%;
+    margin-left: 110%;
     margin-bottom: 60px;
     font-size: 27px;
     color: #8A6C00;
     white-space: nowrap;
 }
-
- /* {
-    background-color: rgba(0, 0, 0, 0.3)!important;
-} */
-
-/*.bg-image-star {
-    background-image: url("../images/blackstar.jpg");
-    margin-left: 0;
-    margin-bottom: 5%;
-    min-height: 700px;
-    min-width: 30px;
-}*/
 
 .btn-book {
     background: #8A6C00;
@@ -1173,8 +1177,8 @@ body {
         position: absolute;
         top: 50%;
         left: 25%;
-        margin-top: 30%;
-        margin-left: 84px;*/
+        margin-top: -73%;
+        margin-left: -5%;
     }
 
     .logo-container {
@@ -1210,7 +1214,7 @@ body {
 
     .about-title {
         margin-top: 175%;
-        margin-left: 90%;
+        margin-left: 50%;
     }
 
     .about-bg {
@@ -1424,7 +1428,7 @@ body {
     }
 
     .aburi-title {
-        margin-left: 35aqa,%;
+        margin-left: 5%;
         margin-top: 115%;
     }
 
@@ -1509,7 +1513,7 @@ body {
     }
 
     .contact-title {
-        margin-left: %;
+        margin-left: 30%;
         margin-top: 60%;
     }
 
@@ -1530,5 +1534,5 @@ body {
 }
 
 @media(max-width: 480px) {
-
+    
 }
