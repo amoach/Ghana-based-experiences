@@ -8,7 +8,7 @@ This was also thought about when designing the overall theme of the website.
 # Project Requirements:
 
 Create a user centric website using front end technologies - HTML5 - CSS3 and supporting libraries such as Bootstrap.
-See the live version [here.]
+See the live version here:
 (https:)
 
 # Table of contents
@@ -98,6 +98,7 @@ See the live version [here.]
 ## Design Process
 
 - Initial research was done in order to see how other competitors went about their website design.
+- The wireframe was then designed on figma which made it easy to visualize as well as successfully make it consistent throughout.
 - The overall aim was to show the user the beauty and amazing things Ghana has to offer and therefore having a gallery like concept and feel to all pages was the best way to showcase it all. Allowing the user to see the photos clearly in big enough photos to really give the intial feel of what Ghana is about.
 - End to end photos on the homepage alongside a continuous scroll was also thought to be a good feature in order to give a good first impression and insight from the get go.
 - The gallery like theme was continued onto the other pages in order to keep it all consistent and still giving that showcasing Ghana feel. So on the experiences pages, there are the photos in a single column of what to expect alongside the text explaining it all. This again was intended to have that continuous feel as you scroll down to find out more.
@@ -137,37 +138,35 @@ See the live version [here.]
     
     2. Video of some things to expect in Ghana to give some inspiration on things to do as well as what Ghana based. experiences also offers. Video was taken from [here.] (https://www.youtube.com/watch?v=z9zuWgLA3QU&feature=emb_logo)
 
-    3. First image of Ghana, Awutu. Image was taken from [here.] 
+    3. First image of Ghana, Awutu. Image was taken from here:
     (https://unsplash.com/photos/6E_Pz__nkMA?utm_source=unsplash&utm_medium=referral&utm_content=creditShareLink)
 
-    4. Second image of food from a Ghanaian restaurant. Image was taken from [here.] (https://unsplash.com/photos/fcbtZwnkyGE?utm_source=unsplash&utm_medium=referral&utm_content=creditShareLink)
+    4. Second image of food from a Ghanaian restaurant. Image was taken from here: (https://unsplash.com/photos/fcbtZwnkyGE?utm_source=unsplash&utm_medium=referral&utm_content=creditShareLink)
 
-    5. Third image of Ghanaian savannah. Image was taken from [here.] (https://unsplash.com/photos/m66ds2HkPpQ?utm_source=unsplash&utm_medium=referral&utm_content=creditShareLink)
+    5. Third image of Ghanaian savannah. Image was taken from here: (https://unsplash.com/photos/m66ds2HkPpQ?utm_source=unsplash&utm_medium=referral&utm_content=creditShareLink)
 
-    6. Fourth image of silhouette of boy. Image was taken from [here.] (https://unsplash.com/photos/dX2viJZtvuw?utm_source=unsplash&utm_medium=referral&utm_content=creditShareLink)
+    6. Fourth image of silhouette of boy. Image was taken from here: (https://unsplash.com/photos/dX2viJZtvuw?utm_source=unsplash&utm_medium=referral&utm_content=creditShareLink)
 
-    7. Fifth image of woman selling goods carried on her head. Image was taken from [here.] (https://unsplash.com/photos/TqYS0r5lt9g?utm_source=unsplash&utm_medium=referral&utm_content=creditShareLink)
+    7. Fifth image of woman selling goods carried on her head. Image was taken from here: (https://unsplash.com/photos/TqYS0r5lt9g?utm_source=unsplash&utm_medium=referral&utm_content=creditShareLink)
 
-    8. Sixth image of Elmina castle in black and white. Image was taken from [here.] (https://unsplash.com/photos/EoJ8bZnQOmk?utm_source=unsplash&utm_medium=referral&utm_content=creditShareLink)
+    8. Sixth image of Elmina castle in black and white. Image was taken from here: (https://unsplash.com/photos/EoJ8bZnQOmk?utm_source=unsplash&utm_medium=referral&utm_content=creditShareLink)
 
-    9. Seventh image of boy on horse. Image was taken from [here.] (https://unsplash.com/photos/ZWw0jWpcsIA?utm_source=unsplash&utm_medium=referral&utm_content=creditShareLink)
+    9. Seventh image of boy on horse. Image was taken from here: (https://unsplash.com/photos/ZWw0jWpcsIA?utm_source=unsplash&utm_medium=referral&utm_content=creditShareLink)
 
-    10. Eighth image of edited black star gate. Image was taken from [here.] (https://www.thea-blast.org/international/2019/05/31/going-through-ghanas-black-star-gate/)
+    10. Eighth image of edited black star gate. Image was taken from here: (https://www.thea-blast.org/international/2019/05/31/going-through-ghanas-black-star-gate/)
 
-    11. Ninth image of Akwidaa, Ghana. Image was taken from [here.] (https://unsplash.com/photos/XOdKX5WtPTc)
+    11. Ninth image of Akwidaa, Ghana. Image was taken from here: (https://unsplash.com/photos/XOdKX5WtPTc)
 
-    12. Tenth image of Ghanaian architecture. Image was taken from [here.] 
-    (https://unsplash.com/photos/Rsh_aEaJC5k?utm_source=unsplash&utm_medium=referral&utm_content=creditShareLink)
+    12. Tenth image of Ghanaian architecture. Image was taken from here: (https://unsplash.com/photos/Rsh_aEaJC5k?utm_source=unsplash&utm_medium=referral&utm_content=creditShareLink)
 
 
 #### Contact
 
-* Contact page consists of the logo header, image background
+* Contact page consists of the logo header, image background and contact form with required fields.
 
-
-# Skeleton
 
 ## Wireframe designs
 
 * The wireframes were designed using Figma. I started with a single home page design, worked on developing a page structure which would support the requirements of the home page.
 
+![](images/Homepage.jpg)
