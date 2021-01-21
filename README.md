@@ -137,7 +137,8 @@ See the live version [here.]
     
     2. Video of some things to expect in Ghana to give some inspiration on things to do as well as what Ghana based. experiences also offers. Video was taken from [here.] (https://www.youtube.com/watch?v=z9zuWgLA3QU&feature=emb_logo)
 
-    3. First image of Ghana, Awutu. Image was taken from [here.] (https://unsplash.com/photos/6E_Pz__nkMA?utm_source=unsplash&utm_medium=referral&utm_content=creditShareLink)
+    3. First image of Ghana, Awutu. Image was taken from [here.] 
+    (https://unsplash.com/photos/6E_Pz__nkMA?utm_source=unsplash&utm_medium=referral&utm_content=creditShareLink)
 
     4. Second image of food from a Ghanaian restaurant. Image was taken from [here.] (https://unsplash.com/photos/fcbtZwnkyGE?utm_source=unsplash&utm_medium=referral&utm_content=creditShareLink)
 
@@ -155,7 +156,8 @@ See the live version [here.]
 
     11. Ninth image of Akwidaa, Ghana. Image was taken from [here.] (https://unsplash.com/photos/XOdKX5WtPTc)
 
-    12. Tenth image of Ghanaian architecture. Image was taken from [here.] (https://unsplash.com/photos/Rsh_aEaJC5k?utm_source=unsplash&utm_medium=referral&utm_content=creditShareLink)
+    12. Tenth image of Ghanaian architecture. Image was taken from [here.] 
+    (https://unsplash.com/photos/Rsh_aEaJC5k?utm_source=unsplash&utm_medium=referral&utm_content=creditShareLink)
 
 
 #### Contact
