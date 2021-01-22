@@ -167,6 +167,26 @@ See the live version here:
 
 ## Wireframe designs
 
-* The wireframes were designed using Figma. I started with a single home page design, worked on developing a page structure which would support the requirements of the home page.
+* The wireframes were created in Photoshop in order to get all the screenshots on the same page
 
-![](images/Homepage.jpg)
+* The screenshots were taken from a desktop screen of 1270 x 815
+
+![Homepage](https://user-images.githubusercontent.com/70138332/105375248-78b7d100-5c00-11eb-8f27-6f883c835986.jpg)
+
+![About us page](https://user-images.githubusercontent.com/70138332/105375784-ebc14780-5c00-11eb-9125-3b6c49dfcca1.jpg)
+
+![Festival page](https://user-images.githubusercontent.com/70138332/105375775-e95eed80-5c00-11eb-8181-c5ba1ab49ff9.jpg)
+
+![Elmina page](https://user-images.githubusercontent.com/70138332/105375768-e663fd00-5c00-11eb-804a-3574c392b778.jpg)
+
+![Aburi page](https://user-images.githubusercontent.com/70138332/105375725-dea45880-5c00-11eb-9eb9-e86122fa8b3e.jpg)
+
+![Gallery page](https://user-images.githubusercontent.com/70138332/105375755-e401a300-5c00-11eb-96af-4e35087b756b.jpg)
+
+![Contact page](https://user-images.githubusercontent.com/70138332/105375745-e2d07600-5c00-11eb-8bc3-958d9651af7a.jpg)
+
+## Responsive Design
+
+All wireframe were created to a medium sized desktop display and other screen sizes were then worked on to ensure responsiveness. And this included mobile size for iphone x and 
+This required me to decide how best the content should be displayed on smaller devices. I ensured to keep the 'user' at the heart of any design choices. Making decisions on content order was important, as less content is viewable on smaller screen sizes without the need to scroll. To ensure engagement was maintained and users are able to find key content quickly, some content was shifted or even removed on smaller screens, using responsive design.
+
