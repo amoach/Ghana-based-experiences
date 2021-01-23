@@ -8,7 +8,7 @@ Ghana based. Experiences is a booking agent specifically for Ghana, in order for
 whilst in Ghana. So it is mainly targeted at young tourists with a demographic of 18-30 year olds.
 This was also thought about when designing the overall theme of the website.
 
-Live version of the website can be accessed ![here:] 
+Live version of the website can be accessed here: (https://amoach.github.io/Ghana-based/)
 
 # Project Requirements:
 
@@ -251,7 +251,7 @@ There were also greys used for some things like the background overlay of home b
 * [Bootstrap](https://getbootstrap.com/) (4.2.1) - Responsiveness, styling and navbar.
 * [FontAwseome](https://fontawesome.com/) (5.15.1) - Icons for the social media links.
 * [Google Fonts](https://fonts.google.com/) - Google Roboto font.
-* [Unsplash.com] (http://unsplash.com/) - Most images used across the site.
+* [Unsplash] (http://unsplash.com/) - Most images used across the site.
 
 ## Tools
 
@@ -263,46 +263,21 @@ There were also greys used for some things like the background overlay of home b
 * [w3 html validator](https://validator.w3.org/) - used to validate my html code.
 * [w3 css validator](https://jigsaw.w3.org/) - used to validate my css code.
 
-# Testing
-
-## Testing User Stories
-* **As a visitor to the site, I want to easily be able to navigate the site and engage with the business if desired.**
-    * The site is easy to navigate, there are multiple ways to engage with the business easily available to the user.
-
-* **As a visitor to the site, I want to learn more about the services offered and view some of the work previously completed by the business, so that I can establish if what I require is offered.**
-    * The services page was easily located, services offered are clear. Gallery was easily located, photos of completed work is clear to me.
-
-* **As a potential client, I want to leave a message/query but I would rather not call.** 
-    * I was able to easily find the contact page, where a form is available for me to use. Alternatively there are 'email' links around the site, which open my mailbox to write an email if desired.
-
-* **As a potential client, I want to easily be able to contact somebody directly - so that I can arrange to receive a quote.**
-    * Upon visiting the site, it was clear that I could request to get a quote very easily. I was able to locate a direct phone number, or I could send a message using a form. Alternatively I could email directly.
-
-* **As a potential client, I want to easily find the contact details of the business, as I would rather speak to somebody directly.**
-    * On each page I was able to locate a direct phone number with ease.
-
 ## Testing Features
-
-- All the features detailed in the [Features](#features) section have been thoroughly tested for functionality.
-    * The navbar was tested to collapse at the correct breakpoint.
-    * The forms were both tested for validation of inputted data and that the user is forwarded to the response page once submitted.
-    * Both modals were tested for functionality on various screen sizes.
-    * Checks completed to ensure mailto links open in a new browser tab.
-    * All buttons and nav links were checked for correct forwarding address.
-    * Testimonials were checked to ensure carousel effect is animating correctly on all devices and browsers.
-
-Further testing was completed by a friend,. With no information prior to the visiting the site of the purpose / business. They provided feedback on functionality and look and feel.
-Feedback received was positive and various user stories were able to be conducted with no issues.
+**
+    * The navbar was tested to collapse as well as with the dropdown menu.
+    * Different screen sizes were looked at in order to see how the responsiveness is on different devices.
+    * Nav links were tested to ensure they were being correctly linked to the intended external sites.
+    * Friend was also asked to preview the site on his xl screen and iphone 5 device.
 
 ## Testing responsiveness
 
-- I used Google Developer Tools within Chrome to view the project on responsively on all screen sizes, down to < 300px width.
+- Using Google Chrome Dev Tools all pages were viewed in the responsive setting to display various screen sizes. 
 
 ## Testing different browsers
 
-I manually tested the website on the following web browsers:
+I tested the website on the following web browsers:
 - Google Chrome 
-- Safari
 - Mozilla Firefox 
 
 ## Validating the HTML and CSS code
@@ -313,14 +288,11 @@ All of my code passed the following validation tests:
 
 Screenshots of validations for each page of code can be found [here](https://github.com/jamie120/ms1_d_r_plastering/blob/master/assets/images/testing)
 
-
-## Issues found
+## Issues 
 
 * There were various HTML validation issues to resolve. These mainly referred to formatting my code and were easily fixable across the site.
 
 * Making the site responsive to the different screen sizes turned out to be difficult and not fully executed in the end. In order to tackle this I added various different media queries in the css.
-
-* Due to the site not translating on iPad, I made changes to accommodate a better user experience on devices at this size.
 
 * There are some overflow issues especially when it comes to the different screen sizes. This was attempted to be fixed by adjusting margins and implementing bootstrap, however due to lack of time, was not fully executed.
 
