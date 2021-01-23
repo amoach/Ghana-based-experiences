@@ -289,17 +289,6 @@ background: rgba(0, 0, 255, 0) !important;
     bottom: 0;
 }
 
-/*.arrow-down {
-  border: solid white;
-  font-size: 5px;
-  margin-left: 50%;
-  border-width: 0 3px 3px 0;
-  display: inline-block;
-  padding: 3px;
-  transform: rotate(45deg);
-  -webkit-transform: rotate(45deg);
-}*/
-
 .about-logo {
     position: absolute;
     font-family: "Roboto", sans-serif;
@@ -523,13 +512,6 @@ h5 {
     margin-top: 6%;
     margin-bottom: -3%;
 }
-
-/*.festival-map {
-    margin-top: 10%;
-    margin-left: 30%;
-    margin-bottom: -20%;
-    border: 3px solid #8A6C00;
-}*/
 
 .btn-fst {
     color: white;

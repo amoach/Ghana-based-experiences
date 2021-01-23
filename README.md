@@ -1,9 +1,14 @@
 # Ghana-based
 ## Code Institute: Milestone Project 1 - Amanda Achampong
+
+![Devices](https://user-images.githubusercontent.com/70138332/105559785-ff0c0a00-5d09-11eb-8d05-c3618c1b6bef.png)
+
 ---
 Ghana based. Experiences is a booking agent specifically for Ghana, in order for those wanting to book things to do
 whilst in Ghana. So it is mainly targeted at young tourists with a demographic of 18-30 year olds.
 This was also thought about when designing the overall theme of the website.
+
+Live version of the website can be accessed ![here:] 
 
 # Project Requirements:
 
@@ -118,9 +123,9 @@ See the live version here:
 
 * The Homepage has button features which enables you to navigate four different pages, along with the navbar at top left side:
 
-    1. First image is of Cape coast beach with buttons to take you to the the about and contact pages. Image was taken from [here.] (https://unsplash.com/photos/OOOLSgre3RE?utm_source=unsplash&utm_medium=referral&utm_content=creditShareLink)
-    2. The second image is one of Afronation festival with a button at the center which will take you to the festivals page. Image was taken from [here.] (https://unsplash.com/photos/cUUvJlhiceU?utm_source=unsplash&utm_medium=referral&utm_content=creditShareLink)
-    3. The third image is of Elmina castle door with a centered button that takes you to the Elmina page. Image was taken from [here.] (https://unsplash.com/photos/EoJ8bZnQOmk?utm_source=unsplash&utm_medium=referral&utm_content=creditShareLink)
+    1. First image is of Cape coast beach with buttons to take you to the the about and contact pages. Image was taken from here: (https://unsplash.com/photos/OOOLSgre3RE?utm_source=unsplash&utm_medium=referral&utm_content=creditShareLink)
+    2. The second image is one of Afronation festival with a button at the center which will take you to the festivals page. Image was taken from here: (https://unsplash.com/photos/cUUvJlhiceU?utm_source=unsplash&utm_medium=referral&utm_content=creditShareLink)
+    3. The third image is of Elmina castle door with a centered button that takes you to the Elmina page. Image was taken from here: (https://unsplash.com/photos/EoJ8bZnQOmk?utm_source=unsplash&utm_medium=referral&utm_content=creditShareLink)
 
 #### About us 
 
@@ -129,6 +134,29 @@ See the live version here:
     1. The first you have a polaroid like photo of the founders - which I own the rights to.
 
     2. The next section is all the relevant information of the aims of Ghana based experiences sets out to achieve
+
+#### Festivals
+
+* The page is sectioned off to 2 columns with the photos on the left side and text on the right. User is then able to access the contact page and book that experience by clicking the 'BOOK' button beneath the text.
+
+    1. First image of Afronation. Image was taken from here: (https://unsplash.com/photos/cUUvJlhiceU?utm_source=unsplash&utm_medium=referral&utm_content=creditShareLink)
+    2. Second image of pool hangout. Image was taken from here: (https://images.unsplash.com/photo-1572477722570-8a909f42ca6d?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&dl=humphrey-muleba-cUUvJlhiceU-unsplash.jpg)
+    3. Third image of Soho bar, Ghana. Image was taken from here: (https://www.tripadvisor.co.uk/Restaurant_Review-g293797-d7284564-Reviews-Soho_Restaurant-Accra_Greater_Accra.html#photos;aggregationId=101&albumid=101&filter=7&ff=118002330)
+
+#### Elmina 
+
+* The page is sectioned off to 2 columns with the photos on the left side and text on the right. User is then able to access the contact page and book that experience by clicking the 'BOOK' button beneath the text.
+    
+    1. First image of Kakum forest. Image was taken from here: (https://unsplash.com/photos/Y5biRJCR-Q4?utm_source=unsplash&utm_medium=referral&utm_content=creditShareLink)
+    2. Second image of Elmina castle door. Image was taken from here: (https://unsplash.com/photos/r6Wy1qSuFnA?utm_source=unsplash&utm_medium=referral&utm_content=creditShareLink)
+    3. Third image of Akwidaa, Ghana. Image was taken from here: (https://unsplash.com/photos/XOdKX5WtPTc)
+
+#### Aburi
+
+* The page is sectioned off to 2 columns with the photos on the left side and text on the right. User is then able to access the contact page and book that experience by clicking the 'BOOK' button beneath the text.
+
+    1. First image of Aburi. Image was taken from (https://unsplash.com/photos/THf0OqViF_g?utm_source=unsplash&utm_medium=referral&utm_content=creditShareLink)
+    2. Second image quadbiking. Image was taken from (https://unsplash.com/photos/UAHzPAX1gK8?utm_source=unsplash&utm_medium=referral&utm_content=creditShareLink)
 
 #### Gallery
 
@@ -169,7 +197,7 @@ See the live version here:
 
 * The wireframes were created in Photoshop in order to get all the screenshots on the same page
 
-* The screenshots were taken from a desktop screen of 1270 x 815
+* The screenshots were taken from a desktop screen of 1183px x 821px
 
 ![Homepage](https://user-images.githubusercontent.com/70138332/105375248-78b7d100-5c00-11eb-8f27-6f883c835986.jpg)
 
@@ -187,6 +215,139 @@ See the live version here:
 
 ## Responsive Design
 
-All wireframe were created to a medium sized desktop display and other screen sizes were then worked on to ensure responsiveness. And this included mobile size for iphone x and 
+All wireframe were created to a large sized desktop display and other screen sizes were then worked on to ensure responsiveness. And this included mobile size for iphone x and larger screen size of 1270px x 815px
 This required me to decide how best the content should be displayed on smaller devices. I ensured to keep the 'user' at the heart of any design choices. Making decisions on content order was important, as less content is viewable on smaller screen sizes without the need to scroll. To ensure engagement was maintained and users are able to find key content quickly, some content was shifted or even removed on smaller screens, using responsive design.
 
+# Surface
+
+## Colours
+
+Colour Palette - I chose three colours which were either taken from the photos used on the website or just one I thought would work well with the theme and be complimentary to the overall look. I also ensured there was continuity throughout the site.
+
+- ![#4d6871](https://via.placeholder.com/15/4d6871/000000?text=+) `#4d6871` - Button hover
+- ![#8A6C00](https://via.placeholder.com/15/8A6C00/000000?text=+) `#8A6C00` - Logo, body text, social media buttons and contact form
+- ![#FFFFFF](https://via.placeholder.com/15/FFFFFF/000000?text=+) `#FFFFFF`- Homepage logo, buttons and social media button logos
+
+There were also greys used for some things like the background overlay of home buttons and text of navbar dropdown menu.
+
+### Nav Bar
+
+* Collaspsible hamburger navbar from bootstrap is used across the site across all devices
+
+* Fixed at the top left corner as the default position users are familiar in navigating. Created to float and scroll along as the user scrolls down the page for easy access to the menu regardless where they are on the page.
+
+
+### Contact Information
+
+* Users have the option of contacting via the contact page and this goes for any queries they may have as well as making a booking of their choice.
+
+## Languages
+
+* HTML 
+* CSS 
+
+## Libraries
+
+* [Bootstrap](https://getbootstrap.com/) (4.2.1) - Responsiveness, styling and navbar.
+* [FontAwseome](https://fontawesome.com/) (5.15.1) - Icons for the social media links.
+* [Google Fonts](https://fonts.google.com/) - Google Roboto font.
+* [Unsplash.com] (http://unsplash.com/) - Most images used across the site.
+
+## Tools
+
+* [Gitpod](https://www.gitpod.io) 
+* [Github](https://github.com/) - hosting repository and website.
+* [Figma](https://www.figma.com/) - used for creation of wireframes.
+* [Am I Responsive](http://ami.responsivedesign.is/) - used to test the website and screenshot was taken for the top of README page.
+* [Google Chrome DevTools](https://developers.google.com/web/tools/chrome-devtools) - used for testing and debugging.
+* [w3 html validator](https://validator.w3.org/) - used to validate my html code.
+* [w3 css validator](https://jigsaw.w3.org/) - used to validate my css code.
+
+# Testing
+
+## Testing User Stories
+* **As a visitor to the site, I want to easily be able to navigate the site and engage with the business if desired.**
+    * The site is easy to navigate, there are multiple ways to engage with the business easily available to the user.
+
+* **As a visitor to the site, I want to learn more about the services offered and view some of the work previously completed by the business, so that I can establish if what I require is offered.**
+    * The services page was easily located, services offered are clear. Gallery was easily located, photos of completed work is clear to me.
+
+* **As a potential client, I want to leave a message/query but I would rather not call.** 
+    * I was able to easily find the contact page, where a form is available for me to use. Alternatively there are 'email' links around the site, which open my mailbox to write an email if desired.
+
+* **As a potential client, I want to easily be able to contact somebody directly - so that I can arrange to receive a quote.**
+    * Upon visiting the site, it was clear that I could request to get a quote very easily. I was able to locate a direct phone number, or I could send a message using a form. Alternatively I could email directly.
+
+* **As a potential client, I want to easily find the contact details of the business, as I would rather speak to somebody directly.**
+    * On each page I was able to locate a direct phone number with ease.
+
+## Testing Features
+
+- All the features detailed in the [Features](#features) section have been thoroughly tested for functionality.
+    * The navbar was tested to collapse at the correct breakpoint.
+    * The forms were both tested for validation of inputted data and that the user is forwarded to the response page once submitted.
+    * Both modals were tested for functionality on various screen sizes.
+    * Checks completed to ensure mailto links open in a new browser tab.
+    * All buttons and nav links were checked for correct forwarding address.
+    * Testimonials were checked to ensure carousel effect is animating correctly on all devices and browsers.
+
+Further testing was completed by a friend,. With no information prior to the visiting the site of the purpose / business. They provided feedback on functionality and look and feel.
+Feedback received was positive and various user stories were able to be conducted with no issues.
+
+## Testing responsiveness
+
+- I used Google Developer Tools within Chrome to view the project on responsively on all screen sizes, down to < 300px width.
+
+## Testing different browsers
+
+I manually tested the website on the following web browsers:
+- Google Chrome 
+- Safari
+- Mozilla Firefox 
+
+## Validating the HTML and CSS code
+
+All of my code passed the following validation tests:
+- HTML: [W3C Markup Validation Service](https://validator.w3.org/)
+- CSS: [W3C Markup Validation Service](https://jigsaw.w3.org/css-validator/)
+
+Screenshots of validations for each page of code can be found [here](https://github.com/jamie120/ms1_d_r_plastering/blob/master/assets/images/testing)
+
+
+## Issues found
+
+* There were various HTML validation issues to resolve. These mainly referred to formatting my code and were easily fixable across the site.
+
+* Making the site responsive to the different screen sizes turned out to be difficult and not fully executed in the end. In order to tackle this I added various different media queries in the css.
+
+* Due to the site not translating on iPad, I made changes to accommodate a better user experience on devices at this size.
+
+* There are some overflow issues especially when it comes to the different screen sizes. This was attempted to be fixed by adjusting margins and implementing bootstrap, however due to lack of time, was not fully executed.
+
+* Nav Bar was very difficult to get styled and working as it is now. Tutor support, heavily relying on devtools and taking on various techniques, that was fixed and was able to function and styled in the desired way. 
+
+
+# Deployment
+
+* The site was coded in GitPod and then pushed onto GitHub repository - [REPO](https://github.com/jamie120/ms1_d_r_plastering)
+    * The following GIT commands were used throughout deployment:
+        * **git status** - to identify any changes yet to be commited.
+        * **git add .** - to stage files ready to commit.
+        * **git commit -m " "** - to commit the specific files for logging purposes.
+        * **git push** - push all files onto final respository in Github.
+
+## Content
+
+I am responsible for all content and code written.
+
+   
+### Sites used for information and support
+
+* [W3C](https://www.w3.org/)
+* [Stack overflow](https://stackoverflow.com/)
+* [W3schools](https://www.w3schools.com/)
+
+
+#### Support
+   * Seun Owonikoko (my mentor) and Aaron Sinnott (temp mentor)
+   * Code Institute (tutors)
